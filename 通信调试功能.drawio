@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T08:44:30.443Z" agent="5.0 (Windows)" etag="oMGPsy-rpVTOxpxXW4oq" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:17:04.702Z" agent="5.0 (Windows)" etag="D1DdLTQXmLso7CAwlMtU" version="14.2.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="3823" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="4223" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,11 +281,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P9kjovQ-LpbU41VSsLbJ-88" target="P9kjovQ-LpbU41VSsLbJ-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1135" y="1210" />
+              <mxPoint x="-850" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P9kjovQ-LpbU41VSsLbJ-88" value="内存中是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="1230" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P9kjovQ-LpbU41VSsLbJ-92" value="内存中不存在或已过期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="1115" width="160" height="20" as="geometry" />
+          <mxGeometry x="-1280" y="1180" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P9kjovQ-LpbU41VSsLbJ-93" value="从内存中获取结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="1240" width="130" height="20" as="geometry" />
@@ -298,6 +306,47 @@
         </mxCell>
         <mxCell id="P9kjovQ-LpbU41VSsLbJ-96" value="Wx" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="1240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-98" value="则添加一个请求任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="1120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-100" value="添加初始结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="1190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9kjovQ-LpbU41VSsLbJ-101" target="P9kjovQ-LpbU41VSsLbJ-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1000.0000000000005" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1050" y="395" />
+              <mxPoint x="-1050" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-101" value="获取规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9kjovQ-LpbU41VSsLbJ-102" target="P9kjovQ-LpbU41VSsLbJ-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1050" y="250" />
+              <mxPoint x="-1050" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-102" value="获取通信调试结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9kjovQ-LpbU41VSsLbJ-104" target="P9kjovQ-LpbU41VSsLbJ-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P9kjovQ-LpbU41VSsLbJ-104" target="P9kjovQ-LpbU41VSsLbJ-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-104" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="280" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P9kjovQ-LpbU41VSsLbJ-107" value="解析得到结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
